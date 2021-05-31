@@ -1,0 +1,66 @@
+.hcbx {
+  text-align: center  !important;
+  border: none  !important;
+  width: 100px;
+}
+
+
+.totalRow {
+  border-collapse: collapse !important;
+  width: 60% !important;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+.cbx {
+  border: none;
+}
+
+.al {
+  text-align: left;
+}
+
+.ar{
+  text-align: right;
+}
+
+th {
+  border: 1.5px solid black;
+  padding: 8px 0px 8px 0px;
+}
+
+table {
+  border-collapse: separate;
+  width: 60%;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 100px;
+  border-spacing: 3px;
+  table-layout: auto;
+}
+
+td {
+  padding: 5px 0px 5px 0px;
+  border: .5px solid lightgrey;
+}
+
+button {
+  background-color: #0077b6;
+  color:white;
+  border-radius: .35em;
+  font-size: 15px;
+}
+
+input[type="checkbox"] {
+  filter: invert(40%) brightness(1.5) ;
+}
+
+input[type="checkbox"]:checked {
+  filter: invert(100%) brightness(1.5) grayscale(100%);
+}
+
+.rowCount{
+  border: none;
+  font-weight: bold;
+}
